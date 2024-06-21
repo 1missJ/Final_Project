@@ -1,0 +1,71 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.forbidden-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8d7da;
+}
+
+.forbidden-content {
+    text-align: center;
+}
+
+.forbidden-content h1 {
+    font-size: 10rem;
+    color: #721c24;
+}
+
+.forbidden-content h2 {
+    color: #721c24;
+}
+
+.forbidden-content p {
+    color: #721c24;
+}
+
+.error-404-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.error-404-content {
+    text-align: center;
+}
+
+.error-404-content h1 {
+    font-size: 10rem;
+    color: #343a40;
+}
+
+.error-404-content h2 {
+    color: #343a40;
+}
+
+.error-404-content p {
+    color: #343a40;
+}
+
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #cc33ff 0%, #66ccff 100%);
+}
